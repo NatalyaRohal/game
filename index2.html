@@ -1,0 +1,31 @@
+<script>
+	var level = prompt("рівень складності (1, 2, 3)");
+	var count = 5;
+	var green = "зелений";
+
+switch(level){
+	case "1":
+	do{
+	var answer = prompt("вгадайте колір веселки(зелений, червоний, синій, оранжевий, жовтий, блакитний, фіолетовий)");
+
+	if (answer == green){
+		alert("ти вгадав!")
+	}else{
+		alert("спробуй ще!")
+		alert("залишилось" + (count-1) + "спроб")
+	}count--;
+	}while(answer != green && count !=0)
+	break;
+
+	case "2":
+	do{
+	alert(answer);
+	var arr = ["зелений","червоний","синій","оранжевий","жовтий","блакитний","фіолетовий"]
+
+
+
+
+}
+
+
+</script>
